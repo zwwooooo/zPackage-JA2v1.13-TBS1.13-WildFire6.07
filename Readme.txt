@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-zww's JA2 1.13 Packages
-
-1.13 + TBS 113 lang zh_CN + Wildfire 6.07 Maps + ja2_cn.exe（简称：JA2 1.13 TBS中文汉化版 + 野火地图MOD）
-=======
 ===============================================
 ===============================================
 zww's JA2 1.13 Packages
@@ -18,4 +13,3 @@ zww's JA2 1.13 Packages
 VFS_CONFIG_INI = vfs_config.JA2113.CN.WF607.ini
 ��Ϊ
 VFS_CONFIG_INI = vfs_config.JA2113.CN.ini
->>>>>>> develop
