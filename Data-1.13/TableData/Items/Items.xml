@@ -184,6 +184,8 @@
 		<buddyitem>0</buddyitem>
 		<SleepModifier>0</SleepModifier>
 		<usSpotting>0</usSpotting>
+		<diseaseprotectionface>0</diseaseprotectionface>
+		<diseaseprotectionhand>0</diseaseprotectionhand>
 		<STAND_MODIFIERS>
 			<FlatBase>0</FlatBase>
 			<PercentBase>0</PercentBase>
@@ -194,7 +196,6 @@
 			<PercentDropCompensation>0</PercentDropCompensation>
 			<PercentMaxCounterForce>0</PercentMaxCounterForce>
 			<PercentCounterForceAccuracy>0</PercentCounterForceAccuracy>
-			<PercentCounterForceFrequency>0</PercentCounterForceFrequency>
 			<AimLevels>0</AimLevels>
 		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS>
@@ -207,7 +208,6 @@
 			<PercentDropCompensation>0</PercentDropCompensation>
 			<PercentMaxCounterForce>0</PercentMaxCounterForce>
 			<PercentCounterForceAccuracy>0</PercentCounterForceAccuracy>
-			<PercentCounterForceFrequency>0</PercentCounterForceFrequency>
 			<AimLevels>0</AimLevels>
 		</CROUCH_MODIFIERS>
 		<PRONE_MODIFIERS>
@@ -220,7 +220,6 @@
 			<PercentDropCompensation>0</PercentDropCompensation>
 			<PercentMaxCounterForce>0</PercentMaxCounterForce>
 			<PercentCounterForceAccuracy>0</PercentCounterForceAccuracy>
-			<PercentCounterForceFrequency>0</PercentCounterForceFrequency>
 			<AimLevels>0</AimLevels>
 		</PRONE_MODIFIERS>
 	</ITEM>
@@ -1649,6 +1648,7 @@
 		<BR_UsedInventory>1</BR_UsedInventory>
 		<BR_ROF>28</BR_ROF>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<BloodiedItem>62</BloodiedItem>
 		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -6409,7 +6409,9 @@
 		<PercentTunnelVision>90</PercentTunnelVision>
 		<ScopeMagFactor>10.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>3</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -6568,6 +6570,7 @@
 		<BR_UsedInventory>1</BR_UsedInventory>
 		<GasMask>1</GasMask>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<diseaseprotectionface>1</diseaseprotectionface>
 		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -22606,7 +22609,9 @@
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
 		<DamageChance>10</DamageChance>
 		<DirtIncreaseFactor>20.0</DirtIncreaseFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>1</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -22894,7 +22899,6 @@
 		<STAND_MODIFIERS>
 			<PercentMaxCounterForce>-20</PercentMaxCounterForce>
 			<PercentCounterForceAccuracy>-20</PercentCounterForceAccuracy>
-			<AimLevels>-1</AimLevels>
 		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -22942,7 +22946,6 @@
 		<STAND_MODIFIERS>
 			<PercentMaxCounterForce>-20</PercentMaxCounterForce>
 			<PercentCounterForceAccuracy>-20</PercentCounterForceAccuracy>
-			<AimLevels>-1</AimLevels>
 		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -29243,7 +29246,7 @@
 		<BR_NewInventory>1</BR_NewInventory>
 		<BR_UsedInventory>1</BR_UsedInventory>
 		<Flare>1</Flare>
-		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<ItemChoiceTimeSetting>2</ItemChoiceTimeSetting>
 		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -30939,7 +30942,7 @@
 		<BR_UsedInventory>1</BR_UsedInventory>
 		<GLGrenade>1</GLGrenade>
 		<Flare>1</Flare>
-		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<ItemChoiceTimeSetting>2</ItemChoiceTimeSetting>
 		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -31070,7 +31073,9 @@
 		<PercentTunnelVision>30</PercentTunnelVision>
 		<ScopeMagFactor>4.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>1</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -31112,7 +31117,9 @@
 		<PercentTunnelVision>80</PercentTunnelVision>
 		<ScopeMagFactor>8.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>2</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -31264,9 +31271,7 @@
 		<AttachmentSystem>1</AttachmentSystem>
 		<ScopeMagFactor>4.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS>
-			<AimLevels>-1</AimLevels>
-		</STAND_MODIFIERS>
+		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -31383,7 +31388,9 @@
 		<PercentTunnelVision>70</PercentTunnelVision>
 		<ScopeMagFactor>7.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>2</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -32077,7 +32084,9 @@
 		<PercentTunnelVision>20</PercentTunnelVision>
 		<ScopeMagFactor>4.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>1</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -37045,7 +37054,9 @@
 		<PercentTunnelVision>20</PercentTunnelVision>
 		<ScopeMagFactor>5.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>2</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -37083,7 +37094,9 @@
 		<PercentTunnelVision>20</PercentTunnelVision>
 		<ScopeMagFactor>4.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>1</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -37121,7 +37134,9 @@
 		<PercentTunnelVision>20</PercentTunnelVision>
 		<ScopeMagFactor>4.0</ScopeMagFactor>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
-		<STAND_MODIFIERS />
+		<STAND_MODIFIERS>
+			<AimLevels>1</AimLevels>
+		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
 	</ITEM>
@@ -37286,7 +37301,6 @@
 		<STAND_MODIFIERS>
 			<PercentMaxCounterForce>-20</PercentMaxCounterForce>
 			<PercentCounterForceAccuracy>-20</PercentCounterForceAccuracy>
-			<AimLevels>-1</AimLevels>
 		</STAND_MODIFIERS>
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -42080,7 +42094,7 @@
 		<GLGrenade>1</GLGrenade>
 		<Flare>1</Flare>
 		<AttachmentSystem>1</AttachmentSystem>
-		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<ItemChoiceTimeSetting>2</ItemChoiceTimeSetting>
 		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -42261,7 +42275,7 @@
 		<BR_NewInventory>2</BR_NewInventory>
 		<GLGrenade>1</GLGrenade>
 		<Flare>1</Flare>
-		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<ItemChoiceTimeSetting>2</ItemChoiceTimeSetting>
 		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -49264,7 +49278,7 @@
 		<ubClassIndex>43</ubClassIndex>
 		<ubGraphicType>2</ubGraphicType>
 		<ubGraphicNum>165</ubGraphicNum>
-		<ubWeight>5</ubWeight>
+		<ubWeight>3</ubWeight>
 		<ItemSize>26</ItemSize>
 		<usPrice>120</usPrice>
 		<ubCoolness>3</ubCoolness>
@@ -49348,7 +49362,7 @@
 		<ubClassIndex>46</ubClassIndex>
 		<ubGraphicType>2</ubGraphicType>
 		<ubGraphicNum>168</ubGraphicNum>
-		<ubWeight>5</ubWeight>
+		<ubWeight>6</ubWeight>
 		<ItemSize>22</ItemSize>
 		<usPrice>75</usPrice>
 		<ubCoolness>1</ubCoolness>
@@ -51061,6 +51075,7 @@
 		<BR_NewInventory>1</BR_NewInventory>
 		<BR_UsedInventory>1</BR_UsedInventory>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<ItemChoiceTimeSetting>2</ItemChoiceTimeSetting>
 		<ItemFlag>67108864</ItemFlag>
 		<buddyitem>1699</buddyitem>
 		<STAND_MODIFIERS />
@@ -51094,6 +51109,7 @@
 		<BR_NewInventory>4</BR_NewInventory>
 		<BR_UsedInventory>1</BR_UsedInventory>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<ItemChoiceTimeSetting>2</ItemChoiceTimeSetting>
 		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />
@@ -51250,6 +51266,32 @@
 		<BR_UsedInventory>1</BR_UsedInventory>
 		<CamoBonus>5</CamoBonus>
 		<usOverheatingCooldownFactor>100.0</usOverheatingCooldownFactor>
+		<STAND_MODIFIERS />
+		<CROUCH_MODIFIERS />
+		<PRONE_MODIFIERS />
+	</ITEM>
+	<ITEM>
+		<uiIndex>1709</uiIndex>
+		<szItemName>Sleeping bag</szItemName>
+		<szLongItemName>Sleeping bag</szLongItemName>
+		<szItemDesc>A basic sleeeping bag. Beats the bare floor.</szItemDesc>
+		<szBRName>Sleeping bag</szBRName>
+		<szBRDesc>No more sleeping on the dirty floor! Sweet dreams, sugar.</szBRDesc>
+		<usItemClass>268435456</usItemClass>
+		<nasLayoutClass>1</nasLayoutClass>
+		<ubGraphicType>2</ubGraphicType>
+		<ubGraphicNum>223</ubGraphicNum>		
+		<ubWeight>13</ubWeight>
+		<ItemSize>27</ItemSize>
+		<usPrice>35</usPrice>		
+		<ubCoolness>3</ubCoolness>
+		<Damageable>1</Damageable>
+		<WaterDamages>1</WaterDamages>
+		<Sinks>1</Sinks>
+		<ShowStatus>1</ShowStatus>
+		<BR_NewInventory>2</BR_NewInventory>
+		<BR_UsedInventory>6</BR_UsedInventory>
+		<SleepModifier>20</SleepModifier>
 		<STAND_MODIFIERS />
 		<CROUCH_MODIFIERS />
 		<PRONE_MODIFIERS />

@@ -5,11 +5,21 @@ zww's JA2 1.13 Packages
 ===============================================
 
 1.13 + TBS 113 lang zh_CN + Wildfire 6.07 Maps + ja2_cn.exe（简称：JA2 1.13 TBS中文汉化版 + 野火地图MOD）
+[ Official 2014 Version ]
 
 ===============================================
 不加 Wildfire 6.07 地图的方法：
 ===============================================
 用文本编辑器打开 Ja2.ini，找到
-VFS_CONFIG_INI = vfs_config.JA2113.CN.WF607.ini
+VFS_CONFIG_INI = vfs_config.JA2113+WF607.cn.ini
 改为
-VFS_CONFIG_INI = vfs_config.JA2113.CN.ini
+VFS_CONFIG_INI = vfs_config.JA2113.cn.ini
+
+===============================================
+玩 UB 的方法：
+===============================================
+用文本编辑器打开 Ja2.ini，找到
+VFS_CONFIG_INI = vfs_config.JA2113+WF607.cn.ini
+改为
+VFS_CONFIG_INI = vfs_config.UB113.cn.ini
+

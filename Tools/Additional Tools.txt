@@ -1,0 +1,2 @@
+Additiona Modding Tools in SVN:
+https://ja2svn.mooo.com/source/ja2/trunk/Documents/1.13%20Modding/Tools
